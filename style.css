@@ -1,0 +1,163 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #f1f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 10px 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+h3{
+    text-align: center;
+    color: rgb(158, 100, 0);
+}
+
+
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header a h3{
+    font-size: 50px;
+}
+
+header a h1{
+    font-size: 20px;
+}
+
+.home{
+    background-image: url("imge/2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    width: 100%;
+    background-color: #f9f9f9;
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+section p{
+    line-height: 20px;
+}
+
+.a{
+    font-size: 30px;
+    color: rgb(158, 100, 0);
+}
+
+.b{
+    color: #0000008b;
+}
+
+.profile{
+    padding: 50px 0;
+}
+
+.botom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.botom a{
+    color: rgb(0, 0, 0);
+    background-color: rgba(177, 177, 177, 0);
+    border-color: rgb(158, 100, 0);
+    border-style:groove;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin-top: 20px;
+    
+    margin-bottom: 5%;
+    border-radius: 15px;
+    justify-content: space-between;
+    transition: 0.5s ease;
+}
+
+.botom a:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    text-align: center;
+}
+
+.icon a{
+    color: rgb(158, 100, 0);
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.icon a:hover{
+    color: rgb(153, 153, 153);
+    transform: scale(1.1);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+
+.card{
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(32, 32, 32);
+    margin: 20px;
+    padding: 20px;
+    transition: 0.5s ease;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.icon{
+    color: rgb(158, 100, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+footer{
+    background-color: #f1f0f0;
+    width: 100%;
+    display: flex;
+    padding: 10px 10%;
+    justify-content: center;
+}
+
+footer h2{
+    color: rgb(158, 100, 0);
+}
